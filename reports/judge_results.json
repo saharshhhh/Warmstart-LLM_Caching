@@ -1,0 +1,427 @@
+{
+  "threshold_0.80": {
+    "threshold": 0.8,
+    "sample_size": 12,
+    "judge_false_hit_rate": 0.5,
+    "unparseable_count": 0,
+    "flagged": [
+      {
+        "query": "I need to update my delivery address",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions updating the shipping address within 1 hour of placing an order, which does not fully address the customer's general request to update their delivery address.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions updating the shipping address within 1 hour of placing an order, which does not fully address the customer's general request to update their delivery address.",
+        "similarity": 0.8666666253451198,
+        "matched_text": "Can I change my shipping address after ordering?"
+      },
+      {
+        "query": "How do returns work?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day return window and does not explain other aspects of the return process.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day return window and does not explain other aspects of the return process.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "What's your return policy?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day return window but does not address other aspects of the return policy that the customer asked about.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day return window but does not address other aspects of the return policy that the customer asked about.",
+        "similarity": 0.8346735025819167,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "Track my order please",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It provides only a generic status and delivery estimate, not actual tracking information requested.",
+        "raw": "VERDICT: NO\nREASON: It provides only a generic status and delivery estimate, not actual tracking information requested.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Can you tell me the status of my order?"
+      },
+      {
+        "query": "Where is my order?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer gives the order's status and delivery timeframe but does not specify its current location as the customer requested.",
+        "raw": "VERDICT: NO\nREASON: The answer gives the order's status and delivery timeframe but does not specify its current location as the customer requested.",
+        "similarity": 0.8746290278914829,
+        "matched_text": "When will my order get here?"
+      },
+      {
+        "query": "Do you offer free returns?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It mentions a 30\u2011day return window but does not state that returns are free.",
+        "raw": "VERDICT: NO\nREASON: It mentions a 30\u2011day return window but does not state that returns are free.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "How do returns work?"
+      }
+    ],
+    "all_results": [
+      {
+        "query": "I need to update my delivery address",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions updating the shipping address within 1 hour of placing an order, which does not fully address the customer's general request to update their delivery address.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions updating the shipping address within 1 hour of placing an order, which does not fully address the customer's general request to update their delivery address.",
+        "similarity": 0.8666666253451198,
+        "matched_text": "Can I change my shipping address after ordering?"
+      },
+      {
+        "query": "How do returns work?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day return window and does not explain other aspects of the return process.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day return window and does not explain other aspects of the return process.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "Does this ship to Canada?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that shipping to Canada is available and provides relevant additional detail about rates.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that shipping to Canada is available and provides relevant additional detail about rates.",
+        "similarity": 0.8504646261560984,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "Is international shipping to Canada available?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that international shipping to Canada is available, directly addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that international shipping to Canada is available, directly addressing the customer's question.",
+        "similarity": 0.8740552715555832,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "What's your return policy?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day return window but does not address other aspects of the return policy that the customer asked about.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day return window but does not address other aspects of the return policy that the customer asked about.",
+        "similarity": 0.8346735025819167,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "When will my order get here?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It provides a clear arrival timeframe that directly answers the customer's query about when the order will arrive.",
+        "raw": "VERDICT: YES\nREASON: It provides a clear arrival timeframe that directly answers the customer's query about when the order will arrive.",
+        "similarity": 0.8258283856803108,
+        "matched_text": "Track my order please"
+      },
+      {
+        "query": "Track my order please",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It provides only a generic status and delivery estimate, not actual tracking information requested.",
+        "raw": "VERDICT: NO\nREASON: It provides only a generic status and delivery estimate, not actual tracking information requested.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Can you tell me the status of my order?"
+      },
+      {
+        "query": "Can you tell me the status of my order?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It directly provides the order's current status and estimated delivery time, fully answering the request.",
+        "raw": "VERDICT: YES\nREASON: It directly provides the order's current status and estimated delivery time, fully answering the request.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Track my order please"
+      },
+      {
+        "query": "Where is my order?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer gives the order's status and delivery timeframe but does not specify its current location as the customer requested.",
+        "raw": "VERDICT: NO\nREASON: The answer gives the order's status and delivery timeframe but does not specify its current location as the customer requested.",
+        "similarity": 0.8746290278914829,
+        "matched_text": "When will my order get here?"
+      },
+      {
+        "query": "Do you deliver to Canadian addresses?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that deliveries are made to Canadian addresses, directly addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that deliveries are made to Canadian addresses, directly addressing the customer's question.",
+        "similarity": 0.8143139522201274,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "Can I order from Canada?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer directly confirms that orders can be placed from Canada by stating they ship there, addressing the core query.",
+        "raw": "VERDICT: YES\nREASON: The answer directly confirms that orders can be placed from Canada by stating they ship there, addressing the core query.",
+        "similarity": 0.8504646261560984,
+        "matched_text": "Does this ship to Canada?"
+      },
+      {
+        "query": "Do you offer free returns?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It mentions a 30\u2011day return window but does not state that returns are free.",
+        "raw": "VERDICT: NO\nREASON: It mentions a 30\u2011day return window but does not state that returns are free.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "How do returns work?"
+      }
+    ]
+  },
+  "threshold_0.65": {
+    "threshold": 0.65,
+    "sample_size": 20,
+    "judge_false_hit_rate": 0.35,
+    "unparseable_count": 0,
+    "flagged": [
+      {
+        "query": "How do returns work?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a 30\u2011day window and omits key details about the return process, conditions, and refund method.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a 30\u2011day window and omits key details about the return process, conditions, and refund method.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "What's your return policy?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day window and omits key policy details such as return conditions, refund method, and any restocking fees.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day window and omits key policy details such as return conditions, refund method, and any restocking fees.",
+        "similarity": 0.8346735025819167,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "Can I change my shipping address after ordering?",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a 1\u2011hour window and does not explain what can be done after that time, leaving the customer's full question unanswered.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a 1\u2011hour window and does not explain what can be done after that time, leaving the customer's full question unanswered.",
+        "similarity": 0.7711115349868404,
+        "matched_text": "I typed the wrong address, can you fix it?"
+      },
+      {
+        "query": "I typed the wrong address, can you fix it?",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a time-limited policy for updating the address without confirming if the order is within that window or providing clear steps to fix the wrong address now.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a time-limited policy for updating the address without confirming if the order is within that window or providing clear steps to fix the wrong address now.",
+        "similarity": 0.7823249650811128,
+        "matched_text": "I need to update my delivery address"
+      },
+      {
+        "query": "I need to update my delivery address",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a narrow one\u2011hour window and does not address whether or how the address can be updated outside that period.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a narrow one\u2011hour window and does not address whether or how the address can be updated outside that period.",
+        "similarity": 0.8666666253451198,
+        "matched_text": "Can I change my shipping address after ordering?"
+      },
+      {
+        "query": "Do you offer free returns?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only states a 30\u2011day return window and does not address whether returns are free.",
+        "raw": "VERDICT: NO\nREASON: The answer only states a 30\u2011day return window and does not address whether returns are free.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "How do returns work?"
+      },
+      {
+        "query": "Track my order please",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It does not provide any tracking information or instructions, only a generic delivery estimate.",
+        "raw": "VERDICT: NO\nREASON: It does not provide any tracking information or instructions, only a generic delivery estimate.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Can you tell me the status of my order?"
+      }
+    ],
+    "all_results": [
+      {
+        "query": "How do returns work?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a 30\u2011day window and omits key details about the return process, conditions, and refund method.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a 30\u2011day window and omits key details about the return process, conditions, and refund method.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "What payment methods do you accept?",
+        "answer": "We accept Visa, Mastercard, PayPal, and Apple Pay.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer directly lists the accepted payment methods, fully addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer directly lists the accepted payment methods, fully addressing the customer's question.",
+        "similarity": 0.7783006915909777,
+        "matched_text": "Can I pay with PayPal?"
+      },
+      {
+        "query": "What's your return policy?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a 30\u2011day window and omits key policy details such as return conditions, refund method, and any restocking fees.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a 30\u2011day window and omits key policy details such as return conditions, refund method, and any restocking fees.",
+        "similarity": 0.8346735025819167,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "How many days do I have to return something?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It directly states a 30\u2011day return period for any item, which answers the customer's query about how many days they have to return something.",
+        "raw": "VERDICT: YES\nREASON: It directly states a 30\u2011day return period for any item, which answers the customer's query about how many days they have to return something.",
+        "similarity": 0.7647602000091719,
+        "matched_text": "Can I return an item I don't like?"
+      },
+      {
+        "query": "Can I change my shipping address after ordering?",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a 1\u2011hour window and does not explain what can be done after that time, leaving the customer's full question unanswered.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a 1\u2011hour window and does not explain what can be done after that time, leaving the customer's full question unanswered.",
+        "similarity": 0.7711115349868404,
+        "matched_text": "I typed the wrong address, can you fix it?"
+      },
+      {
+        "query": "Does this ship to Canada?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer directly confirms that shipping to Canada is available, which fully addresses the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer directly confirms that shipping to Canada is available, which fully addresses the customer's question.",
+        "similarity": 0.8504646261560984,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "Can I order from Canada?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that orders can be placed for delivery to Canada, directly addressing the customer's query.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that orders can be placed for delivery to Canada, directly addressing the customer's query.",
+        "similarity": 0.8504646261560984,
+        "matched_text": "Does this ship to Canada?"
+      },
+      {
+        "query": "Can I pay with PayPal?",
+        "answer": "We accept Visa, Mastercard, PayPal, and Apple Pay.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer explicitly states PayPal is accepted, directly addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer explicitly states PayPal is accepted, directly addressing the customer's question.",
+        "similarity": 0.7783006915909777,
+        "matched_text": "What payment methods do you accept?"
+      },
+      {
+        "query": "I typed the wrong address, can you fix it?",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It only mentions a time-limited policy for updating the address without confirming if the order is within that window or providing clear steps to fix the wrong address now.",
+        "raw": "VERDICT: NO\nREASON: It only mentions a time-limited policy for updating the address without confirming if the order is within that window or providing clear steps to fix the wrong address now.",
+        "similarity": 0.7823249650811128,
+        "matched_text": "I need to update my delivery address"
+      },
+      {
+        "query": "My package hasn't arrived yet, what's going on?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer explains the package is in transit and provides an expected arrival timeframe, directly addressing why it hasn't arrived.",
+        "raw": "VERDICT: YES\nREASON: The answer explains the package is in transit and provides an expected arrival timeframe, directly addressing why it hasn't arrived.",
+        "similarity": 0.779108531851479,
+        "matched_text": "Can you tell me the status of my order?"
+      },
+      {
+        "query": "I need to update my delivery address",
+        "answer": "You can update your shipping address within 1 hour of placing the order.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only mentions a narrow one\u2011hour window and does not address whether or how the address can be updated outside that period.",
+        "raw": "VERDICT: NO\nREASON: The answer only mentions a narrow one\u2011hour window and does not address whether or how the address can be updated outside that period.",
+        "similarity": 0.8666666253451198,
+        "matched_text": "Can I change my shipping address after ordering?"
+      },
+      {
+        "query": "Do you deliver to Canadian addresses?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that deliveries are made to Canadian addresses, directly addressing the customer's query.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that deliveries are made to Canadian addresses, directly addressing the customer's query.",
+        "similarity": 0.8143139522201274,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "When will my order get here?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It provides a specific timeframe for arrival, directly answering the customer's question about when the order will arrive.",
+        "raw": "VERDICT: YES\nREASON: It provides a specific timeframe for arrival, directly answering the customer's question about when the order will arrive.",
+        "similarity": 0.8258283856803108,
+        "matched_text": "Track my order please"
+      },
+      {
+        "query": "Do you offer free returns?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "The answer only states a 30\u2011day return window and does not address whether returns are free.",
+        "raw": "VERDICT: NO\nREASON: The answer only states a 30\u2011day return window and does not address whether returns are free.",
+        "similarity": 0.8206607313986789,
+        "matched_text": "How do returns work?"
+      },
+      {
+        "query": "Where is my order?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It informs the customer that the order is in transit and provides the expected delivery timeframe, directly answering the location query.",
+        "raw": "VERDICT: YES\nREASON: It informs the customer that the order is in transit and provides the expected delivery timeframe, directly answering the location query.",
+        "similarity": 0.8746290278914829,
+        "matched_text": "When will my order get here?"
+      },
+      {
+        "query": "Is international shipping to Canada available?",
+        "answer": "Yes, we ship to Canada with standard international rates.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that international shipping to Canada is available, directly addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that international shipping to Canada is available, directly addressing the customer's question.",
+        "similarity": 0.8740552715555832,
+        "matched_text": "Can I order from Canada?"
+      },
+      {
+        "query": "Do you take Apple Pay?",
+        "answer": "We accept Visa, Mastercard, PayPal, and Apple Pay.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that Apple Pay is accepted, directly addressing the customer's question.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that Apple Pay is accepted, directly addressing the customer's question.",
+        "similarity": 0.7305325430596192,
+        "matched_text": "What payment methods do you accept?"
+      },
+      {
+        "query": "Track my order please",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "inappropriate",
+        "judge_reason": "It does not provide any tracking information or instructions, only a generic delivery estimate.",
+        "raw": "VERDICT: NO\nREASON: It does not provide any tracking information or instructions, only a generic delivery estimate.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Can you tell me the status of my order?"
+      },
+      {
+        "query": "Can I return an item I don't like?",
+        "answer": "You have 30 days to return any item.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "The answer confirms that any item can be returned within 30 days, directly addressing the customer's query about returning an item they don't like.",
+        "raw": "VERDICT: YES\nREASON: The answer confirms that any item can be returned within 30 days, directly addressing the customer's query about returning an item they don't like.",
+        "similarity": 0.7629645157602305,
+        "matched_text": "Do you offer free returns?"
+      },
+      {
+        "query": "Can you tell me the status of my order?",
+        "answer": "Your order is currently in transit and should arrive within 3-5 business days.",
+        "judge_verdict": "appropriate",
+        "judge_reason": "It directly provides the order's current status and arrival estimate, fully answering the query.",
+        "raw": "VERDICT: YES\nREASON: It directly provides the order's current status and arrival estimate, fully answering the query.",
+        "similarity": 0.8682034055402053,
+        "matched_text": "Track my order please"
+      }
+    ]
+  }
+}

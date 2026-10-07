@@ -1,0 +1,50 @@
+[
+  {
+    "threshold": 0.6,
+    "hits": 21,
+    "false_hits": 1,
+    "false_hit_rate": 0.0476
+  },
+  {
+    "threshold": 0.65,
+    "hits": 20,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.7,
+    "hits": 20,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.75,
+    "hits": 19,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.8,
+    "hits": 12,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.85,
+    "hits": 7,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.9,
+    "hits": 0,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  },
+  {
+    "threshold": 0.95,
+    "hits": 0,
+    "false_hits": 0,
+    "false_hit_rate": 0.0
+  }
+]
