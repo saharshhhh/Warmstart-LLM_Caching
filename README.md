@@ -99,6 +99,9 @@ New answer cached:     exact:1966a13e26fa6398:... -> HIT  (45-day return answer)
 The fingerprint changed the moment `on_policy_change()` was called — no manual deletion, no stale answer served.
 
 ## Dashboard
+<img width="940" height="412" alt="image" src="https://github.com/user-attachments/assets/3fababbb-8ee1-4a91-8baa-0330db855de3" />
+
+<img width="929" height="397" alt="image" src="https://github.com/user-attachments/assets/87e1d82e-4192-4a32-afd8-b84614dbe673" />
 
 `streamlit run dashboard.py` — built for a support lead to read without the engineer present:
 - Top-line cost savings, hit rate, p95 latency, projected monthly cost
